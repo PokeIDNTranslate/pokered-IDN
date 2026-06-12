@@ -1504,38 +1504,40 @@ _NoRoomToStoreText::
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Apa yang kamu"
+	line "ingin ambil?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Berapa banyak?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Mengambil"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Tidak ada yang"
+	line "disimpan."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Tasmu sudah penuh!"
+
+	para "Setorkan barang"
+    line "lebih dahulu."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Apa yang kamu"
+	line "ingin buang?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Berapa banyak?"
 	done
 
 _AccessedHoFPCText::
