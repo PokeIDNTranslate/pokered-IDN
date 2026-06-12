@@ -341,13 +341,13 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "LANJUT"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "GIM BARU"
+	next "PILIHAN@"
 
 CableClubOptionsText:
 	db   "TRADE CENTER"
@@ -595,19 +595,19 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	db   "KECEPATAN TEKS"
+	next " CEPAT BIASA  LMBT@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
-	next " ON       OFF@"
+	db   "ANIMASI TARUNG"
+	next " NYALA    MATI@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	db   "GAYA TARUNG"
+	next " PINDAH   TETAP@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "BATAL@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:
