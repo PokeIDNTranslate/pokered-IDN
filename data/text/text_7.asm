@@ -27,22 +27,22 @@ _GotOffBicycleText2::
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
+	text "Membuang"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Bolehkah membuang"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Itu teralu penting"
+	line "untuk dibuang!"
 	prompt
 
 _AlreadyKnowsText::
