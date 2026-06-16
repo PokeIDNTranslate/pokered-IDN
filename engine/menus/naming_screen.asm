@@ -106,7 +106,7 @@ DisplayNamingScreen:
 	ld [wCurrentMenuItem], a
 	ld a, $ff
 	ld [wMenuWatchedKeys], a
-	ld a, 8
+	ld a, 7
 	ld [wMaxMenuItem], a
 	ld a, '@'
 	ld [wStringBuffer], a
