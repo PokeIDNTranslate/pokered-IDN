@@ -67,7 +67,7 @@ HisNameIsText:
 OakSpeechSlidePicLeft:
 	push de
 	hlcoord 0, 0
-	lb bc, 12, 11
+	lb bc, 12, 12
 	call ClearScreenArea ; clear the name list text box
 	ld c, 10
 	call DelayFrames
