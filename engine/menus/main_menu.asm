@@ -435,10 +435,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
+	db   "PEMAIN"
+	next "LENCANA   "
 	next "#DEX    "
-	next "TIME@"
+	next "WAKTU@"
 
 DisplayOptionMenu:
 	hlcoord 0, 0
