@@ -1,45 +1,54 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Data penyimpanan"
+	line "rusak!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "Apakah kamu ingin"
+	line "MENYIMPAN"
+	cont "progresmu?"
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> telah"
+	line "menyimpan progres"
+	cont "mereka!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "Data yang lebih"
+	line "lama akan dihapus"
+	cont "untuk menyimpan"
+	cont "yang baru."
+	cont "Apakah kamu ingin"
+	cont "malakukannya?"
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "Ketika kamu menu-"
+	line "kar KOTAK"
+	cont "#MON, progresmu"
+	cont "akan disimpan."
 
-	para "Is that okay?"
+	para "Apakah itu"
+	line "dibolehkan?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "Pilihlah salah"
+	line "satu KOTAK.@"
 	text_end
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text ""
+	line "berevolusi"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "menjadi@"
+	cont ""
 	text_ram wNameBuffer
 	text "!"
 	done

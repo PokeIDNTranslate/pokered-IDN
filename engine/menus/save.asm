@@ -181,7 +181,7 @@ SaveMenu:
 	jp DelayFrames
 
 NowSavingString:
-	db "Now saving...@"
+	db "Menyimpan...@"
 
 SaveTheGame_YesOrNo:
 	call PrintText
